@@ -1,0 +1,12 @@
+notion.other:
+  label: other
+  mediaQuery: 'all and (max-width: 991px)'
+  weight: 0
+  multipliers:
+    - 1x
+# notion.Desktop:
+#   label: extralarge
+#   mediaQuery: 'all and (min-width: 992px)'
+#   weight: 1
+#   multipliers:
+#     - 1x

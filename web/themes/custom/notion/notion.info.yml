@@ -1,0 +1,10 @@
+name: mytheme
+type: theme
+description: "My Custom theme"
+base theme: olivero
+package: Custom
+core_version_requirement: ^8 || ^9
+
+
+libraries:
+  - notion/global-styling
