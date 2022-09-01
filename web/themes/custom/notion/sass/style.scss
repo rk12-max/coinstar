@@ -1,10 +1,5 @@
-.left{
-    display: flex;
-}
-.right{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.first{
-    flex: 1;
-}
+@import 'variables.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'theme.scss';
+@import 'global.scss';

@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Theme override to display a single component.
+ *
+ * footer area template
+ */
+#}
+
+<div class="whole-footer">
+    <div class="whole-footer-top">
+        <div class="container">
+            <div class="row">
+                {% if page.footer_top_left %}
+                    <div class="footer-top-left col-sm-4">{{ page.footer_top_left }}</div>
+                {% endif %}
+                {% if page.footer_top_middle %}
+                    <div class="footer-top-middle col-sm-4">{{ page.footer_top_middle }}</div>
+                {% endif %}
+                {% if page.footer_top_right %}
+                    <div class="footer-top-right col-sm-4">{{ page.footer_top_right }}</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="whole-footer-bottom">
+        {% if page.footer_bottom %}
+            <div class="copyright">{{ page.footer_bottom }}</div>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,56 @@
+@import 'variables.scss';
+.whole-footer {
+	.whole-footer-top {
+		text-align: center;
+		padding: 20px 0 100px 0;
+		background: #333 url(../templates/images/footer-image.png);
+		background-size: cover;
+		h2{
+			font-size: 40px;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		.row{
+			align-items: flex-end;
+		}
+		.news-event-bottom {
+			color: #fff;
+			text-transform: uppercase;
+			margin: 10px 0 15px 0;
+			span {
+				i {
+					font-family: 'FontAwesome';
+					color: #9A354B;
+					padding-right: 5px;
+				}
+			}
+		}
+		.footer-top-middle{
+			h2{
+				text-transform: uppercase;
+				font-weight: 200;
+			}
+			.address-phone-email {
+				color: #ffffff;
+				letter-spacing: 0.2em;
+				font-weight: 700;
+				font-size: 14px;
+				text-transform: uppercase;
+				line-height: 30px;
+				margin: 25px 0;
+				.email{
+					color: #FAB92E;
+				}
+			}
+		}
+	}
+	.whole-footer-bottom{
+		padding: 15px;
+		.copyright {
+			color: #808080;
+			letter-spacing: 2px;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+	}
+}

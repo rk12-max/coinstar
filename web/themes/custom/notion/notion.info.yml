@@ -1,10 +1,30 @@
 name: mytheme
 type: theme
 description: "My Custom theme"
-base theme: olivero
+base theme: classy
 package: Custom
 core_version_requirement: ^8 || ^9
 
+regions:
+  header_left: "Header Left"
+  header_middle: "Header Middle"
+  header_right: "Header Right"
+  navigation: "Navigation Area"
 
+  content: "Content Area"
+  bitcoin: "Bitcoin Content"
+  info_block_second: "Info Block"
+  testinomial_carousel: "Testinomial Carousel"
+  bitcoin_currency: "Bitcoin Currency"
+  services_section: "Services Section"
+  news_events: "News Event"
+  free_quotes_form: "Free Quotes Webform"
+  brand_logo_section: "Brand Logo"
+  
+  footer_top_left: "Footer Top Left"
+  footer_top_middle: "Footer Top Middle"
+  footer_top_right: "Footer Top Right"
+  footer_bottom: "Footer Bottom"
+  
 libraries:
   - notion/global-styling

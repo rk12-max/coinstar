@@ -3,3 +3,10 @@ global-styling:
   css:
     theme:
       css/style.css: {}
+      css/bootstrap.min.css: {}
+      css/owl.carousel.min.css: {}
+      css/owl.theme.default.css: {}
+  js:
+    js/simple.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/owl.carousel.min.js: {}
